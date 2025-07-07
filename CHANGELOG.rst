@@ -218,6 +218,22 @@ Added
 * Added a ``UuidAvroSerializer`` to serialize uuid fields.
 * Added ``isort`` make target.
 
+[9.10.0.post2] - 2025-07-11
+---------------------
+
+changed
+~~~~~~~
+
+* PEP440 support for eventmetada sourcelib field
+
+[9.10.0.post1] - 2025-07-10
+---------------------
+
+Added
+~~~~~~~
+
+* Added new ``XBLOCK_LTI1P1_GRADED`` events in content_authoring.
+
 [9.10.0] - 2024-05-08
 ---------------------
 

@@ -13,6 +13,14 @@ Change Log
 
 Unreleased
 ----------
+[9.10.0.post1] - 2025-07-10
+---------------------
+
+Added
+~~~~~~~
+
+* Added new ``XBLOCK_LTI1P1_GRADED`` events in content_authoring.
+
 
 [9.10.0] - 2024-05-08
 ---------------------

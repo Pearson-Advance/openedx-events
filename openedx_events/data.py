@@ -102,7 +102,7 @@ class EventsMetadata:
     sourcelib = attr.ib(
         type=tuple, default=None,
         converter=attr.converters.default_if_none(
-            attr.Factory(lambda: tuple(map(int, openedx_events.__version__.split("."))))
+            attr.Factory(lambda: tuple(openedx_events.__version__.split(".")))
         ),
         validator=attr.validators.instance_of(tuple),
     )

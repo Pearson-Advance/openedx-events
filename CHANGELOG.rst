@@ -13,6 +13,14 @@ Change Log
 
 Unreleased
 ----------
+[9.10.0.post2] - 2025-07-11
+---------------------
+
+changed
+~~~~~~~
+
+* PEP440 support for eventmetada sourcelib field
+
 [9.10.0.post1] - 2025-07-10
 ---------------------
 

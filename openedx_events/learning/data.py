@@ -93,6 +93,8 @@ class CcxCourseData:
         end (str, optional): The end date of the CCX course. Defaults to None, indicating no specific end date.
         max_students_allowed (int, optional): The maximum number of students that can enroll in the CCX course.
            Defaults to None, indicating no limit.
+        context (dict, optional): Extensible metadata dictionary for additional course context information.
+           Defaults to an empty dict.
     """
 
     ccx_course_key = attr.ib(type=CCXLocator)
@@ -102,6 +104,7 @@ class CcxCourseData:
     start = attr.ib(type=str, default=None)
     end = attr.ib(type=str, default=None)
     max_students_allowed = attr.ib(type=int, default=None)
+    context = attr.ib(type=dict[str, str], factory=dict)
 
 
 @attr.s(frozen=True)

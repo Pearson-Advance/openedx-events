@@ -96,6 +96,14 @@
                     "long"
                   ],
                   "default": null
+                },
+                {
+                  "name": "context",
+                  "type": {
+                    "type": "map",
+                    "values": "string"
+                  },
+                  "default": {}
                 }
               ]
             }
